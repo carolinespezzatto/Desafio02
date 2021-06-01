@@ -1,0 +1,50 @@
+.container-header-text{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 50px 350px;
+}
+.container-header-buttons{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0px 430px;
+}
+#top{
+    font-family: Bai Jamjuree ;
+    color: hsl(0, 0%, 33%);
+    font-size: 18px;
+    height: 300px;
+    width: 1355px;
+    margin-top: -20px;
+    background-image: url(file:///C:/Users/carol/Documents/MeusProjetos/challenge-02/images/bg-header-desktop.png);
+}      
+.button-download-ios{
+    font-weight: 600;
+    padding: 18px 10px;
+    width: 220px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(171, 66%, 44%);
+    border-radius: 30px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: none; 
+    margin-right: 10px;
+}
+.button-download-mac{
+    font-weight: 600;
+    padding: 18px 10px;
+    width: 220px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(233, 100%, 69%);
+    border-radius: 30px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: none;  
+}
+
+
