@@ -5,7 +5,7 @@
     position: relative;
     padding: 50px 350px;
 }
-.container-header-buttons{
+.container-buttons{
     display: flex; 
     align-items: center;
     text-align: center;
@@ -17,11 +17,11 @@
     color: hsl(0, 0%, 33%);
     font-size: 18px;
     height: 300px;
-    width: 1355px;
+    width: 1350px;
     margin-top: -20px;
     background-image: url(file:///C:/Users/carol/Documents/MeusProjetos/challenge-02/images/bg-header-desktop.png);
 }      
-.button-download-ios{
+.button__download__ios{
     font-weight: 600;
     padding: 18px 10px;
     width: 220px;
@@ -34,7 +34,7 @@
     border: none; 
     margin-right: 10px;
 }
-.button-download-mac{
+.button__download__mac{
     font-weight: 600;
     padding: 18px 10px;
     width: 220px;
@@ -63,7 +63,7 @@
     margin-left: 80px;
     margin-top: 20px;
 }
-#monitor div ul li{
+#computer div ul li{
     list-style: none;
     padding: 8px 0px;
 }
@@ -109,4 +109,80 @@
     padding: 40px 350px;
     font-family: Bai Jamjuree ;
     color: hsl(0, 0%, 33%);
+}
+footer{
+    background-color: hsl(0, 0%, 93%);
+}
+#navigation-menu{
+    display: flex;
+    font-family: Bai Jamjuree;
+    color: hsl(0, 0%, 33%);
+    position: relative;
+    margin-top: 100px; 
+    margin-bottom: -10px; 
+    margin-right: -18px; 
+ 
+}
+#navigation-menu ul li{
+    list-style: none;
+    padding: 10px 20px; 
+    position: relative;
+    padding: 10px 0px;
+    top: 25px;
+    left: -30px;
+}
+.footer-logo{
+    position: relative;
+    padding: 50px 150px;
+}
+.media {
+    display: inline-table;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+.media .icon__media{
+    display: none;
+    position: absolute;
+    top: 10;
+    right: 10px;
+    z-index: 99;
+}
+.media:hover .icon__media{
+    display: inline;
+}
+#page-two-return{
+    font-family: Bai Jamjuree ;
+    color: hsl(0, 0%, 33%);
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: hsl(0, 0%, 33%);
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    color: hsl(0, 0%, 33%);
+} 
+.card {
+    display: inline-table;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 10;
+    right: 10px;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
 }
